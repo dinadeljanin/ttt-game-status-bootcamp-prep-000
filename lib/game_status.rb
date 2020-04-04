@@ -54,9 +54,8 @@ def over?(board)
 end
 
 def winner(board)
-  # won needs to return true
-  if won?(board)
-    winner = won?(board)
+  if won?(board) # won needs to return true
+    board[won?(board).first]
   else
     nil
   end
