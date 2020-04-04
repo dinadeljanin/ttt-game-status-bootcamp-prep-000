@@ -57,7 +57,7 @@ def winner(board)
   # won needs to return true
   if won?(board)
     # how do you return which player
-    board[won?(board[0])]
+    
   else
     nil
   end
