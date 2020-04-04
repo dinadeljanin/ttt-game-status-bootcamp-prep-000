@@ -56,8 +56,7 @@ end
 def winner(board)
   # won needs to return true
   if won?(board)
-    winner = won?(board)[position_1]
-    
+    winner = won?(board)
   else
     nil
   end
