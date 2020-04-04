@@ -55,9 +55,7 @@ end
 
 def winner(board)
   if won?(board) # won needs to return true
-    board[won?(board).first] 
-    # what did i do?
-    # 
+    board[won?(board).first] # witchcraft using .first()
   else
     nil
   end
